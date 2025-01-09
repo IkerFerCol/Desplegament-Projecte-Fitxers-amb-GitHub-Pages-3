@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "laliga": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "equipo": {
+            "type": "string"
+          },
+          "lugar": {
+            "type": "string"
+          },
+          "mejor_jugador": {
+            "type": "string"
+          },
+          "imagen": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "required": ["equipo", "lugar", "mejor_jugador", "imagen"]
+      }
+    },
+    "premierleague": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "equipo": {
+            "type": "string"
+          },
+          "lugar": {
+            "type": "string"
+          },
+          "mejor_jugador": {
+            "type": "string"
+          },
+          "imagen": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "required": ["equipo", "lugar", "mejor_jugador", "imagen"]
+      }
+    }
+  },
+  "required": ["laliga", "premierleague"]
+}

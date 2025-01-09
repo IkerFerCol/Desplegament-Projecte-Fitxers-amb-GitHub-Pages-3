@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalles del Equipo</title>
+    <link rel="stylesheet" href="../styles2.css">
+</head>
+<body>
+
+<header>
+    <h1 th:text="${nombre}"></h1>
+    <h2 th:text="${tema}"></h2>
+</header>
+
+<div>
+    <h3 th:text="${equipo}"></h3>
+    <p><strong>Lugar:</strong> <span th:text="${lugar}"></span></p>
+    <p><strong>Mejor Jugador:</strong> <span th:text="${mejor_jugador}"></span></p>
+    <img th:src="${imagen}" alt="" width="300">
+</div>
+
+<a href="../index.html">Volver a la lista de equipos</a>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+{
+  "laliga": [
+    {
+      "equipo": "Real_Madrid",
+      "lugar": "Madrid",
+      "mejor_jugador": "Vinícius Júnior",
+      "imagen": "https://assets.laliga.com/squad/2024/t186/p246333/256x278/p246333_t186_2024_1_001_000.png"
+    },
+    {
+      "equipo": "FC_Barcelona",
+      "lugar": "Barcelona",
+      "mejor_jugador": "Robert Lewandowski",
+      "imagen": "https://assets.laliga.com/squad/2024/t178/p56764/256x278/p56764_t178_2024_1_001_000.png"
+    },
+    {
+      "equipo": "Villarreal_CF",
+      "lugar": "Vila-real",
+      "mejor_jugador": "Alex Baena",
+      "imagen": "https://assets.laliga.com/squad/2024/t449/p248501/256x278/p248501_t449_2024_1_001_000.png"
+    },
+    {
+      "equipo": "Real_Betis_Balompie",
+      "lugar": "Sevilla",
+      "mejor_jugador": "Giovani Lo Celso",
+      "imagen": "https://assets.laliga.com/squad/2024/t185/p200826/2048x2048/p200826_t185_2024_1_002_000.jpg"
+    },
+    {
+      "equipo": "Valencia_CF",
+      "lugar": "Valencia",
+      "mejor_jugador": "Gaya",
+      "imagen": "https://assets.laliga.com/squad/2024/t191/p132105/2048x2048/p132105_t191_2024_1_002_000.jpg"
+    }
+  ],
+  "premierleague": [
+    {
+      "equipo": "Manchester_City",
+      "lugar": "Manchester",
+      "mejor_jugador": "Erling Haaland",
+      "imagen": "https://resources.premierleague.com/premierleague/photos/players/250x250/p223094.png"
+    },
+    {
+      "equipo": "Arsenal",
+      "lugar": "Londres",
+      "mejor_jugador": "Bukayo Saka",
+      "imagen": "https://resources.premierleague.com/premierleague/photos/players/250x250/p223340.png"
+    },
+    {
+      "equipo": "Manchester_United",
+      "lugar": "Manchester",
+      "mejor_jugador": "Bruno Fernandes",
+      "imagen": "https://resources.premierleague.com/premierleague/photos/players/250x250/p141746.png"
+    },
+    {
+      "equipo": "Liverpool_FC",
+      "lugar": "Liverpool",
+      "mejor_jugador": "Mohamed Salah",
+      "imagen": "https://resources.premierleague.com/premierleague/photos/players/250x250/p118748.png"
+    },
+    {
+      "equipo": "Chelsea_FC",
+      "lugar": "Londres",
+      "mejor_jugador": "Cole Palmer",
+      "imagen": "https://resources.premierleague.com/premierleague/photos/players/250x250/p244851.png"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>Futbol Internacional</title>
+<link>src/main/resources/Webs/index.html</link>
+<description>Competiciones futbolisticas</description>
+<item>
+<title>Real_Madrid</title>
+<link>src/main/resources/Webs/equipo/Real_Madrid.html</link>
+<description>Mejor jugador: Vinícius Júnior</description>
+</item>
+<item>
+<title>FC_Barcelona</title>
+<link>src/main/resources/Webs/equipo/FC_Barcelona.html</link>
+<description>Mejor jugador: Robert Lewandowski</description>
+</item>
+<item>
+<title>Villarreal_CF</title>
+<link>src/main/resources/Webs/equipo/Villarreal_CF.html</link>
+<description>Mejor jugador: Alex Baena</description>
+</item>
+<item>
+<title>Real_Betis_Balompie</title>
+<link>src/main/resources/Webs/equipo/Real_Betis_Balompie.html</link>
+<description>Mejor jugador: Giovani Lo Celso</description>
+</item>
+<item>
+<title>Valencia_CF</title>
+<link>src/main/resources/Webs/equipo/Valencia_CF.html</link>
+<description>Mejor jugador: Gaya</description>
+</item>
+<item>
+<title>Manchester_City</title>
+<link>src/main/resources/Webs/equipo/Manchester_City.html</link>
+<description>Mejor jugador: Erling Haaland</description>
+</item>
+<item>
+<title>Arsenal</title>
+<link>src/main/resources/Webs/equipo/Arsenal.html</link>
+<description>Mejor jugador: Bukayo Saka</description>
+</item>
+<item>
+<title>Manchester_United</title>
+<link>src/main/resources/Webs/equipo/Manchester_United.html</link>
+<description>Mejor jugador: Bruno Fernandes</description>
+</item>
+<item>
+<title>Liverpool_FC</title>
+<link>src/main/resources/Webs/equipo/Liverpool_FC.html</link>
+<description>Mejor jugador: Mohamed Salah</description>
+</item>
+<item>
+<title>Chelsea_FC</title>
+<link>src/main/resources/Webs/equipo/Chelsea_FC.html</link>
+<description>Mejor jugador: Cole Palmer</description>
+</item>
+</channel>
+</rss>

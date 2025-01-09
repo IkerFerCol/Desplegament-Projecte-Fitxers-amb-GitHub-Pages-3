@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Ligas Internacionales</title>
+  <link rel="stylesheet" href="../Webs/styles1.css">
+</head>
+<body>
+
+<header>
+  <h1 th:text="${nombre}"></h1>
+  <h2 th:text="${tema}"></h2>
+</header>
+
+<div>
+  <h3>LA LIGA</h3>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/LaLiga_EA_Sports_2023_Vertical_Logo.svg/1200px-LaLiga_EA_Sports_2023_Vertical_Logo.svg.png" alt="">
+  <ul>
+    <li th:each="equipo : ${laliga}">
+      <a th:href="'equipo/' + ${equipo.equipo} + '.html'" th:text="${equipo.equipo}"></a>
+    </li>
+  </ul>
+
+  <h3>PREMIER LEAGUE</h3>
+  <img src="https://i.pinimg.com/originals/a8/9c/c7/a89cc7f74d03a4082c55f817df5f4379.jpg" alt="">
+  <ul>
+    <li th:each="equipo : ${premierleague}">
+      <a th:href="'equipo/' + ${equipo.equipo} + '.html'" th:text="${equipo.equipo}"></a>
+    </li>
+  </ul>
+</div>
+
+</body>
+</html>
